@@ -1,10 +1,9 @@
-<router-outlet></router-outlet>
-
-<!-- <div class="search-container">
+<h1>Made by Kristiyan Kraev</h1>
+<div class="search-container">
     <input type="text" class="search-input" placeholder="Search city" value="{{cityName}}" [(ngModel)]="cityName">
-    <button class="search-button" (click)="searchWeather()">Search</button>
+    <button class="search-button" (click)="searchWeather()" [disabled]="cityName.length < 3">Search</button>
 </div>
-<a href='/details'>More info</a>
+
 
 @if (showInfo) {
 <div class="content">
@@ -23,14 +22,17 @@
         <div class="section-2">
             <div class="top-info">
                 <p>Feels like: {{data.feelsLike}} °C</p>
+
+                <p>City:{{data.city}}</p>
             </div>
             <div class="bottom-info">
                 <div class="info-box">
-                    {{data.city}}
+                    <a [routerLink]="['details',cityName]">More info</a>
+
                 </div>
 
             </div>
         </div>
     </div>
 </div>
-} -->
+}

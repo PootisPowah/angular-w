@@ -27,7 +27,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    width: 70%;
+    width: 90%;
     height: 400px;
     display: flex;
     align-items: center;
@@ -45,22 +45,22 @@
 
 .section-image {
     width: 600px;
-    height: 197px;
+    height: 200px;
 }
 
 .temperature {
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(255, 255, 255);
 }
 
 .section-2 {
     background: linear-gradient(to bottom, #1e2a78, #15224a);
-    height: 196px;
+    height: 200px;
     color: whitesmoke;
     display: flex;
     flex-direction: column;
@@ -79,6 +79,7 @@
 
 .info-box {
     text-align: center;
+    font-size: 30px;
 }
 
 p {

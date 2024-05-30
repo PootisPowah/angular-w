@@ -1,0 +1,39 @@
+.search-button {
+    padding: 10px;
+    background-color: #1e2a78;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.row {
+    flex: 1;
+}
+
+.section-2 {
+    background: linear-gradient(to bottom, #1e2a78, #15224a);
+    height: 50%;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-info,
+.bottom-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.info-box {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
